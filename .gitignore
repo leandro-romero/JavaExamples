@@ -1,0 +1,11 @@
+target
+.project
+.classpath
+.settings
+*.iml
+*.ipr
+*.iws
+*.gwt.rpc
+smartgwt-example/src/main/webapp/WEB-INF/classes/
+smartgwt-example/src/main/webapp/smartgwt-example/sc/
+smartgwt-example/src/main/webapp/smartgwt-example/smartgwt-example.nocache.js
