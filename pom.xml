@@ -10,6 +10,7 @@
 
   <modules>
     <module>smartgwt-example</module>
+    <module>drools-spring-example</module>
   </modules>
 
 </project>

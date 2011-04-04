@@ -1,0 +1,15 @@
+import com.dx9.example.Car;
+
+rule "Cars painted in pink"
+when
+	Car($model : model, colour == "pink")
+then
+	System.out.println("The model " + $model + " is painted in pink.");
+end
+
+rule "Cars whose price is higher that 40000"
+when
+	Car($model : model, price > 40000)
+then
+	System.out.println("The model " + $model + " price is higher that 40000");
+end
