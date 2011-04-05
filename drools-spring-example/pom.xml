@@ -21,14 +21,6 @@
 	</repositories>
 
 	<dependencies>
-
-		<!-- Log4j -->
-		<dependency>
-			<groupId>org.slf4j</groupId>
-			<artifactId>slf4j-simple</artifactId>
-			<version>1.6.1</version>
-		</dependency>
-
 		<!-- Spring Dependencies -->
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -41,13 +33,6 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring</artifactId>
 			<version>2.5.6</version>
-		</dependency>
-
-		<!-- Spring AOP Dependencies -->
-		<dependency>
-			<groupId>cglib</groupId>
-			<artifactId>cglib</artifactId>
-			<version>2.2</version>
 		</dependency>
 
 		<!-- Drools Dependencies -->
